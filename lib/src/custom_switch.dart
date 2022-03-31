@@ -94,9 +94,8 @@ class _CustomSwitchWidgetState extends State<CustomSwitchWidget>
 
   ///when a user run action manually
   void _onGesture() {
-    if (widget.onChange == null) return;
     var value = widget.controller.value;
-    widget.onChange!(value);
+    widget.onChange(value);
   }
 
   @override
