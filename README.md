@@ -3,7 +3,7 @@
 ```yaml
 dependencies:
   ...
-  custom_switch_widget: ^0.0.1
+  custom_switch_widget: ^0.0.2
 ```
 
 ```dart
